@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "mysql2": "^3.11.3",
+    "protobufjs": "^7.4.0",
     "uuid": "^10.0.0"
   }
 }

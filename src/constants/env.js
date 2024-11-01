@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 export const HOST = process.env.HOST || 'localhost';
 export const PORT = process.env.PORT || '8500';
-
+export const CLIENT_VERSION = process.env.CLIENT_VERSION || '1';
 export const DB1 = {
   DB1_NAME: process.env.DB1_NAME,
   DB1_USER: process.env.DB1_USER,
